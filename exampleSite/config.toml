@@ -42,6 +42,11 @@ disqusShortname = "yourdiscussshortname"
 
     langseparator = "|"
 
+# Analytics
+[params.analytics]
+    googleAnalyticsID = "UA-144185554-1"
+    facebookPixelID = "130757830970559"
+
 [[params.social]]
     name = "Github"
     weight = 1
