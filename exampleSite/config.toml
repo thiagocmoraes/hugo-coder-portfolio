@@ -44,8 +44,8 @@ disqusShortname = "yourdiscussshortname"
 
 # Analytics
 [params.analytics]
-    googleAnalyticsID = "UA-144185554-1"
-    facebookPixelID = "130757830970559"
+    googleAnalyticsID = "GOOGLE_ANALYTICS_ID"
+    facebookPixelID = "YOUR_PIXEL_ID_HERE"
 
 [[params.social]]
     name = "Github"
