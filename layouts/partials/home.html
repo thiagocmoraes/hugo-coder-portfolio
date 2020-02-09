@@ -6,9 +6,17 @@
     <h1>{{ .Site.Params.author }}</h1>
     <p>{{ .Site.Params.info }}</p>
     {{ with .Site.Params.social }}
-    <ul>
-      {{ range sort .}}
-      <li><a href="{{ .url }}">{{ .name }}</a></li>
+    <ul class="social-list">
+      {{ range sort . "weight"}}
+        <li class="social-item">
+          <a href="{{ .url }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }}>
+            {{ if .icon }}
+              <i class="{{ .icon }}" aria-hidden="true"></i>
+            {{ else }}
+              {{ .name }}
+            {{ end }}
+          </a>
+        </li>
       {{ end }}
     </ul>
     {{ end }}

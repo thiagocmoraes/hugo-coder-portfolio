@@ -27,7 +27,15 @@ disqusShortname = "yourdiscussshortname"
     hideCredits = false
     hideCopyright = false
 
+    # Bottom sns share
     snsShare = true
+    # Popular sns share
+    # if you want add sns. please message!
+    enableTwitterShare = true
+    enableFacebookShare = true
+    enableHatenaShare = true
+    enableLineShare = true
+    enableLinkedInShare = true
 
     thumbnail = "images/tn.png"
 
@@ -49,15 +57,22 @@ disqusShortname = "yourdiscussshortname"
 
 [[params.social]]
     name = "Github"
+    icon = "fab fa-github"
     weight = 1
     url = "https://github.com/naro143/"
 [[params.social]]
     name = "Twitter"
+    icon = "fab fa-twitter"
     weight = 2
     url = "https://twitter.com/naro143/"
 [[params.social]]
     name = "LinkedIn"
+    icon = "fab fa-linkedin"
     weight = 3
+    url = "https://www.linkedin.com/in/naro143/"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 4
     url = "https://www.linkedin.com/in/naro143/"
 
 [languages]
